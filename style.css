@@ -10,7 +10,7 @@ a {
 }
 
 .bot {
-  
+ box-shadow:4px 4px 10px black;
 border-radius: 50px;
   display: block;
   margin-right: auto;
