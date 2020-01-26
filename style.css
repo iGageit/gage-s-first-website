@@ -1,6 +1,6 @@
 html, body {
   background-color: green;
-  background-image: radial-gradient(circle , rgb(2, 197, 2), rgb(20, 82, 196));
+  background-image: radial-gradient(circle , green, rgb(20, 82, 196));
   font-family: 'IBM Plex Mono', monospace;
   color: #111C31;
 }
@@ -10,10 +10,12 @@ a {
 }
 
 .bot {
+  
+
   display: block;
   margin-right: auto;
   margin-left: auto;
-  width: 100px;
+  width: 200px;
   opacity: 0;
   animation: botFade 2000ms forwards;
 }
