@@ -1,6 +1,6 @@
 html, body {
-  background-color: green;
-  background-image: radial-gradient(circle , green, rgb(20, 82, 196));
+  background-color: rgb(0, 255, 0);
+  background-image: radial-gradient(circle ,lightgreen, green, rgb(20, 82, 196));
   font-family: 'IBM Plex Mono', monospace;
   color: #111C31;
 }
@@ -32,7 +32,7 @@ border-radius: 50px;
 
 .info {
   opacity: 0;
-  animation: textFade 300ms 1900ms forwards;
+  animation: textFade 3000ms 1900ms forwards;
 }
 
 .page {
